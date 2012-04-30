@@ -67,7 +67,7 @@ CREATE TABLE `registroasistentes` (
   PRIMARY KEY (`id`),
   KEY `fk_registrotese_evento` (`evento_id`),
   CONSTRAINT `fk_registrotese_evento0` FOREIGN KEY (`evento_id`) REFERENCES `eventos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -76,7 +76,7 @@ CREATE TABLE `registroasistentes` (
 
 LOCK TABLES `registroasistentes` WRITE;
 /*!40000 ALTER TABLE `registroasistentes` DISABLE KEYS */;
-INSERT INTO `registroasistentes` VALUES (1,1,'interno','Alex',2,'foto.jpg','2012-04-10','alex@gmail.com'),(2,1,'interno','Alex2',2,'foto.jpg','2012-04-10','alex2@gmail.com'),(3,1,'externo','Alex3',3,'foto.jpg','2012-04-10','alex3@gmail.com');
+INSERT INTO `registroasistentes` VALUES (1,1,'interno','Alex',2,'foto.jpg','2012-04-10','alex@gmail.com'),(2,1,'interno','Alex2',2,'foto.jpg','2012-04-10','alex2@gmail.com'),(3,1,'externo','Alex3',3,'foto.jpg','2012-04-10','alex3@gmail.com'),(4,1,'interno','Ian Test',2,'CH.jpg','2012-04-26','iantest@test.com'),(5,1,'interno','Ian Test',1,'CH.jpg','2012-04-26','alex2@gmail.com'),(6,1,'interno','Ian Test',1,'mountain_forest_3-wallpaper-2560x1600.jpg','2012-04-26','alex2@gmail.com'),(7,1,'interno','Ian Test',1,'foro_tese4f9a1da333d19CH.jpg','2012-04-26','alex2@gmail.com'),(8,1,'interno','Alex',1,'asistente_4f9a1dd3dfac6CH.jpg','2012-04-26','alex2@gmail.com'),(9,1,'interno','Ian Test',1,'asistente_4f9a1e3521dbf_CH.jpg','2012-04-26','iantest@test.com'),(10,1,'interno','Ian Test',1,'asistente_4f9cd0cb6aca8_CH.jpg','2012-04-29','iantest@test.com'),(11,1,'interno','Ian Test',1,'asistente_4f9cd1065e5d7_CH.jpg','2012-04-29','iantest@test.com'),(12,1,'interno','Ian Test',1,'asistente_4f9cd117d5488_CH.jpg','2012-04-29','iantest@test.com'),(13,1,'interno','Ian Test',1,'asistente_4f9cd151e2930_CH.jpg','2012-04-29','iantest@test.com'),(14,1,'interno','Ian Test',1,'asistente_4f9cd1ec980d6_CH.jpg','2012-04-29','iantest@test.com'),(15,1,'interno','Ian Test',1,'asistente_4f9cd23336f2d_fly_agaric_mushrooms-wallpaper-1366x768.jpg','2012-04-29','iantest@test.com'),(16,1,'interno','Ian Test',1,'asistente_4f9cd3a8b4422_CH.jpg','2012-04-29','iantest@test.com'),(17,1,'interno','Ian Test',1,'asistente_4f9cd42a6f610_CH.jpg','2012-04-29','alex2@gmail.com'),(18,1,'interno','Ian Test',1,'asistente_4f9cd5d06cd34_CH.jpg','2012-04-29','alex2@gmail.com'),(19,1,'interno','Ian Test',1,'asistente_4f9cd5f49700b_CH.jpg','2012-04-29','alex2@gmail.com');
 /*!40000 ALTER TABLE `registroasistentes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -101,7 +101,7 @@ CREATE TABLE `registroponentes` (
   PRIMARY KEY (`id`),
   KEY `fk_registrotese_evento` (`evento_id`),
   CONSTRAINT `fk_registrotese_evento` FOREIGN KEY (`evento_id`) REFERENCES `eventos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -110,7 +110,7 @@ CREATE TABLE `registroponentes` (
 
 LOCK TABLES `registroponentes` WRITE;
 /*!40000 ALTER TABLE `registroponentes` DISABLE KEYS */;
-INSERT INTO `registroponentes` VALUES (1,1,'interno','erika ramirez','foro',4,'foto.jpg','2012-04-09','foro1.pdf','eri@hotmail.com'),(2,1,'interno','alex','projecttest',2,'foto.jpg','2012-04-10','foro1.pdf','alex@hotmail.com');
+INSERT INTO `registroponentes` VALUES (1,1,'interno','erika ramirez','foro',4,'foto.jpg','2012-04-09','foro1.pdf','eri@hotmail.com'),(2,1,'interno','alex','projecttest',2,'foto.jpg','2012-04-10','foro1.pdf','alex@hotmail.com'),(3,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'CH.jpg','2012-04-26','escanear0001.pdf','test_1@hotmail.com'),(4,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a27c4ac48c_tree_tops-wallpaper-1366x768.jpg','2012-04-26','ponente_pdf_4f9a27c4ac48c_COTIZACION  CSI 240309.pdf','ponente_1@hotmail.com'),(5,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a31152e068_orvalho-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a31152e068_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(9,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a33bd62d14_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a33bd62d14_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(10,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a341c91be7_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a341c91be7_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(11,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a3460e9aa3_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a3460e9aa3_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(12,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a347df415a_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a347df415a_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(13,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a34d2bc1e3_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a34d2bc1e3_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(14,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a350c6b752_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a350c6b752_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(15,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a351fcc44c_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a351fcc44c_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(16,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a35385136a_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a35385136a_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(17,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a35b662675_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a35b662675_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(18,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a35c0de0ce_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a35c0de0ce_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(19,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a3609a625b_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a3609a625b_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(20,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a361f4dead_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a361f4dead_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(21,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a362ab1056_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a362ab1056_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(22,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a3733b9cb3_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a3733b9cb3_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(23,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a390563941_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a390563941_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(24,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a394b8ee5d_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a394b8ee5d_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(25,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a3cc9ca257_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a3cc9ca257_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(26,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9a3daf8286b_bamboo_3-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a3daf8286b_CV_ALEXREYES.pdf','ponente_1@hotmail.com'),(27,1,'interno','Ponente test 2','Proyecto Ponente test 2',1,'ponente_foto_4f9a3e6477b3f_fly_agaric_mushrooms-wallpaper-1366x768.jpg','2012-04-27','ponente_pdf_4f9a3e6477b3f_2011-11-30-Suma.pdf','ponente_2@hotmail.com'),(28,1,'interno','Ponente test 1','Proyecto Ponente test 1',1,'ponente_foto_4f9cd81fe77f1_fly_agaric_mushrooms-wallpaper-1366x768.jpg','2012-04-29','ponente_pdf_4f9cd81fe77f1_CV_ALEXREYES.pdf','ponente_1@hotmail.com');
 /*!40000 ALTER TABLE `registroponentes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -135,7 +135,7 @@ CREATE TABLE `revisionproyectos` (
   KEY `fk_revisionproyectos_users1` (`users_id`),
   CONSTRAINT `fk_revisionproyectos_users1` FOREIGN KEY (`users_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_revisionproyecto_registroponentes1` FOREIGN KEY (`registroponentes_id`) REFERENCES `registroponentes` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -144,6 +144,7 @@ CREATE TABLE `revisionproyectos` (
 
 LOCK TABLES `revisionproyectos` WRITE;
 /*!40000 ALTER TABLE `revisionproyectos` DISABLE KEYS */;
+INSERT INTO `revisionproyectos` VALUES (1,26,4,'no aceptado','','2032-01-01','00:00:00',''),(2,27,2,'no aceptado','','0000-00-00','00:00:00',''),(3,28,2,'no aceptado','','0000-00-00','00:00:00','');
 /*!40000 ALTER TABLE `revisionproyectos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -185,4 +186,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-04-13 12:31:47
+-- Dump completed on 2012-04-30 18:25:55
