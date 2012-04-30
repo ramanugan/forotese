@@ -1,0 +1,678 @@
+2012-03-31 20:55:19 Error: [MissingControllerException] Controller class EventosController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-04 14:25:03 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'ForoTese'" is missing, or could not be created.
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#4 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(3238): Model->setSource('eventos')
+#5 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/areyes/public_html/forotese/app/Controller/EventosController.php(18): Controller->paginate()
+#9 [internal function]: EventosController->index()
+#10 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(EventosController), Array)
+#11 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#12 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(EventosController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-05 11:44:39 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'ForoTese'" is missing, or could not be created.
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#4 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(3238): Model->setSource('eventos')
+#5 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/areyes/public_html/forotese/app/Controller/EventosController.php(18): Controller->paginate()
+#9 [internal function]: EventosController->index()
+#10 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(EventosController), Array)
+#11 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#12 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(EventosController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-09 14:04:42 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-09 14:05:17 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-09 14:05:24 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-09 14:06:32 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-09 14:13:31 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-09 14:42:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.password' in 'where clause'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(2460): DboSource->read(Object(User), Array)
+#5 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(84): Model->find('first', Array)
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(65): BaseAuthenticate->_findUser('user1', 'user1')
+#7 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/AuthComponent.php(640): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/AuthComponent.php(514): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/Controller/UsersController.php(17): AuthComponent->login()
+#10 [internal function]: UsersController->login()
+#11 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#13 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-04-09 17:41:55 Error: [MissingTableException] Database table users for model User was not found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(3238): Model->setSource('users')
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#2 /home/areyes/public_html/forotese/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#3 /home/areyes/public_html/forotese/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('User', 'fields')
+#4 /home/areyes/public_html/forotese/app/View/Users/add.ctp(2): FormHelper->create('User')
+#5 /home/areyes/public_html/forotese/lib/Cake/View/View.php(598): include('/home/areyes/pu...')
+#6 /home/areyes/public_html/forotese/lib/Cake/View/View.php(365): View->_render('/home/areyes/pu...')
+#7 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#9 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-09 18:11:05 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-09 18:31:28 Error: [MissingActionException] Action UsersController::loout() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-09 23:53:43 Error: [MissingActionException] Action UsersController::revisionproyectos() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 13:19:16 Error: [MissingActionException] Action PagesController::inicio() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 14:02:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 14:05:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 14:55:59 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 14:56:12 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 15:18:06 Error: [NotFoundException] Invalido registroasistente
+#0 [internal function]: RegistroasistentesController->edit('1')
+#1 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 15:50:16 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 15:50:33 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 15:57:43 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 17:06:27 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 17:09:39 Error: [MissingViewException] View file "/home/areyes/public_html/forotese/app/View/Pages/display.ctp" is missing.
+#0 /home/areyes/public_html/forotese/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 17:17:44 Error: [MissingViewException] View file "/home/areyes/public_html/forotese/app/View/Pages/display.ctp" is missing.
+#0 /home/areyes/public_html/forotese/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-11 17:43:52 Error: [MissingControllerException] Controller class RevisionproyectosController.phpController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 20:12:56 Error: [MissingControllerException] Controller class RegistroasitentesController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 12:48:46 Error: [MissingComponentException] Component class authorizeComponent could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Controller/ComponentCollection.php(45): ComponentCollection->load('authorize', Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(UsersController))
+#2 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(103): Controller->constructClasses()
+#3 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-12 12:50:50 Error: [MissingComponentException] Component class authorizeComponent could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Controller/ComponentCollection.php(45): ComponentCollection->load('authorize', Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(UsersController))
+#2 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(103): Controller->constructClasses()
+#3 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-12 19:03:57 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 19:11:13 Error: [CakeException] $controller does not implement an isAuthorized() method.
+#0 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(70): ControllerAuthorize->controller(Object(RevisionproyectosController))
+#1 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/AuthComponent.php(414): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/AuthComponent.php(376): AuthComponent->constructAuthorize()
+#3 /home/areyes/public_html/forotese/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(RevisionproyectosController))
+#5 /home/areyes/public_html/forotese/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RevisionproyectosController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-13 00:00:08 Error: [MissingControllerException] Controller class FaltaController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:10:14 Error: [MissingControllerException] Controller class SdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:12:11 Error: [MissingControllerException] Controller class SdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:12:13 Error: [MissingControllerException] Controller class SdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:13:33 Error: [MissingControllerException] Controller class SdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:13:56 Error: [MissingControllerException] Controller class SdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:15:22 Error: [MissingControllerException] Controller class SdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:16:01 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:16:59 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:17:36 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:17:45 Error: [MissingControllerException] Controller class DasfController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:18:31 Error: [MissingActionException] Action UsersController::sdfsdfsdf() could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-13 14:35:08 Error: [MissingControllerException] Controller class SadfsdfController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:35:42 Error: [MissingControllerException] Controller class EwewrwerwerController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-13 14:43:54 Error: [MissingControllerException] Controller class WqdsasdasdController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-26 19:26:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroponente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroponentesController.php(58): Model->save(Array)
+#5 [internal function]: RegistroponentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroponentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroponentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:34:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(60): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:35:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(61): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:35:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(61): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:35:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(61): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:36:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(61): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:56:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(61): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:57:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(66): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:58:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(68): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:59:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(68): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:59:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(67): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 22:59:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(67): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 23:01:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(67): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 23:03:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(67): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 23:03:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(67): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-26 23:06:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroasistente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroasistentesController.php(67): Model->save(Array)
+#5 [internal function]: RegistroasistentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroasistentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroasistentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-27 00:47:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ForoTese`.`registroponentes`, CONSTRAINT `fk_registrotese_evento` FOREIGN KEY (`evento_id`) REFERENCES `eventos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroponente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroponentesController.php(69): Model->save(Array)
+#5 [internal function]: RegistroponentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroponentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroponentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-27 00:49:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ForoTese`.`registroponentes`, CONSTRAINT `fk_registrotese_evento` FOREIGN KEY (`evento_id`) REFERENCES `eventos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `re...', Array)
+#2 /home/areyes/public_html/forotese/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `re...')
+#3 /home/areyes/public_html/forotese/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Registroponente), Array, Array)
+#4 /home/areyes/public_html/forotese/app/Controller/RegistroponentesController.php(69): Model->save(Array)
+#5 [internal function]: RegistroponentesController->add()
+#6 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(RegistroponentesController), Array)
+#7 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RegistroponentesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-27 14:16:27 Error: [MissingControllerException] Controller class FaltaController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-27 14:16:29 Error: [MissingControllerException] Controller class FaltaController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-27 23:57:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:39:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:40:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:40:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:40:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:40:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:42:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:43:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:43:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:44:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:44:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:44:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:45:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:45:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 00:45:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:08:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:12:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:12:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:14:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:15:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:15:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:15:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:15:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:15:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:18:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:20:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:20:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:23:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:25:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:30:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:30:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:31:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:33:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:33:45 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:35:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:36:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:36:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:37:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:38:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:38:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:40:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:40:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:41:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:42:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:43:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:45:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:49:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:50:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:51:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:51:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:52:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:52:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:53:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:54:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:57:59 Error: [MissingControllerException] Controller class 100x100Controller could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:58:16 Error: [MissingControllerException] Controller class 100x100Controller could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:58:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 21:59:27 Error: [MissingControllerException] Controller class 100x100Controller could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 22:00:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 22:03:54 Error: [MissingControllerException] Controller class 100x100Controller could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 22:04:15 Error: [MissingControllerException] Controller class CacheController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 22:04:46 Error: [MissingControllerException] Controller class 100x100Controller could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-28 22:19:52 Error: [MissingControllerException] Controller class 100x100Controller could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:51:02 Error: [MissingHelperException] Helper class ThumbnailHelper could not be found.
+#0 /home/areyes/public_html/forotese/lib/Cake/View/View.php(577): HelperCollection->load('Thumbnail', Array)
+#1 /home/areyes/public_html/forotese/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /home/areyes/public_html/forotese/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /home/areyes/public_html/forotese/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(RevisionproyectosController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-04-29 00:51:26 Error: [MissingControllerException] Controller class UploadFilesController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:51:54 Error: [MissingControllerException] Controller class UploadFilesController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-29 00:52:50 Error: [MissingControllerException] Controller class UploadFilesController could not be found.
+#0 /home/areyes/public_html/forotese/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
